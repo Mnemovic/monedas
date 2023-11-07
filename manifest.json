@@ -1,0 +1,28 @@
+{
+    "__name__":"Nombre de la aplicación, que usa el sistema operativo para mostrarse junto al icono de la aplicación.",
+    "name": "Monedas mexicanas de $20",
+    "__lang__": "Especifica el idioma principal para los miembros name y short_name.",
+    "lang": "es-MX",
+    "__short_name__": "Proporciona un nombre corto para la aplicación. ",
+    "short_name": "Monedas $20",
+    "__description__": "Proporciona una descripción general sobre qué hace la aplicación.",
+    "description": "Monedas coleccionables mexicanas de $20 pesos",
+    "__start_url__": "Especifica la URL que se carga cuando el usuario lanza la aplicación desde un dispositivo.",
+    "start_url": "/",
+    "__scope__": "Define el ámbito de navegación en el contexto de la aplicación web.",
+    "scope": "/",
+    "__display__": "Define el modo de visualización preferido para la aplicación web.",
+    "display": "standalone",
+    "__theme_color__": "Define el color por defecto para la aplicación.",
+    "theme_color": "#2f3d58",
+    "__background_color__": "Define el color de fondo deseado para la aplicación.",
+    "background_color": "#2f3d58",
+    "__orientation__": "Define la orientación por defecto para toda la aplicación web",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "icon512.png",
+            "sizes": "512x512"
+        }
+    ]    
+}

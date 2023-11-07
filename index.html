@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lag="es">
+    <head>
+        <title>Colección de Monedas </title>
+        <meta charset="utf-8">
+        <meta name="description" content="Coleccion de monedas mexicanas de $20">
+        <meta name="keywords" content="Monedas, PWA">
+        <link rel="shortcut icon" href="https://c.s-microsoft.com/favicon.ico?v2" />
+        <link rel="stylesheet" href="estilos/style.css">
+        <link rel="manifest" href="manifest.json">        
+    </head>
+    <body>
+        <header><h1 id="titular">MONEDAS CONMEMORATIVAS DE MEXICO - SIGLO XXI</h1></header>       
+        <hr size="2" align="center" width="100%" />
+        <main>
+            <nav></nav>
+                <section id="monedas">
+                    <div class="tipo1">
+                        <div class="cabecera1"><h3>Independencia</h3></div>
+                        <div class="cuerpo">
+                            <a href="5independencia.html">
+                                <img src="imagenes/C_mon_5_LopezRayon.png" width="125px" height="125px">                         
+                            </a>
+                        </div>
+                    </div>
+                    <div class="tipo1">
+                        <div class="cabecera1"><h3>Revolución</h3></div>
+                        <div class="cuerpo">
+                            <a href="5revolucion.html">
+                                <img src="imagenes/C_mon_5_Obregon.png" width="125px" height="125px">
+                            </a>                        
+                        </div>
+                    </div>
+                    <div class="tipo1">
+                        <div class="cabecera1"><h3>Conmemorativas $10</h3></div>
+                        <div class="cuerpo">
+                            <a href="conmemorativas10.html">
+                                <img src="imagenes/C_mon_10_BatallaPuebla.png" width="125px" height="125px">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="tipo1">
+                        <div class="cabecera1"><h3>Conmemorativa C</h3></div>
+                        <div class="cuerpo">
+                            <a href="conmemorativas20C.html">
+                                <img src="imagenes/C_mon20pesos_PlanMarina.png" width="125px" height="125px">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="tipo1">
+                        <div class="cabecera1"><h3>Conmemorativa C1</h3></div>
+                        <div class="cuerpo">
+                            <a href="conmemorativas20C1.html">
+                                <img src="imagenes/mon20C1_FundLunar_revNgo.png" width="125px" height="125px">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="tipo1">
+                        <div class="cabecera1"><h3>Nuevos Pesos</h3></div>
+                        <div class="cuerpo">
+                            <a href="nuevosPesos.html">
+                                <img src="imagenes/B_mon20NuevosPesosHgo_rev.png" width="125px" height="125px">
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section id="monedas">                
+                    <div class="tipo2">
+                        <div class="cabecera2"><h3>Bimetálica Centenario</h3></div>
+                        <div class="cuerpo">
+                            <img src="imagenes/bime_cente_revol.png" width="150px" height="150px">  
+                        </div>
+                    </div>
+                    <div class="tipo2">
+                        <div class="cabecera2"><h3>Bimétalica Bicentenario</h3></div>
+                        <div class="cuerpo">
+                            <img src="imagenes/bime_bicen_indep.png" width="150px" height="150px">       
+                        </div>
+                    </div>
+                    <div class="tipo2">
+                        <div class="cabecera2"><h3>Trimetálica Centenario</h3></div>
+                        <div class="cuerpo">
+                            <img src="imagenes/trime_cente_revol.png" width="150px" height="150px">
+                        </div>
+                    </div>
+                    <div class="tipo2">
+                        <div class="cabecera2"><h3>Trimetálica Bicentenario</h3></div>
+                        <div class="cuerpo">
+                            <img src="imagenes/trime_bicen_indep.png" width="150px" height="150px">
+                        </div>
+                    </div>                    
+                </section>                
+        </main>
+        <footer>
+            <hr size="2" align="center" width="100%" />
+            <h1 id="titular">Mauricio Torres Montalvez</h1>
+        </footer>
+        <script>
+        if('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/sw.js', { scope: '/' });
+        }
+        </script>
+    </body>    
+</html>
+
