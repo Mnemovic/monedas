@@ -36,11 +36,6 @@ footer #titular
     background-color: #FF9966;
 }
 
-cuerpo
-{
-    background-color: brown;
-}
-
 #monedas        
 { 
     display: flex; 
