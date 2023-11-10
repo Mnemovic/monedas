@@ -101,7 +101,8 @@ footer #titular
 
 .precio
 {
-    color: #FFCC00;
+    color: #FF0000;
+    font-size: 16px;
     font-weight: bold;
 }
 
